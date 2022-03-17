@@ -1,0 +1,20 @@
+{
+  "name": "cryptography",
+  "version": "1.0.0",
+  "description": "In this repo we explore the different concepts of cryptography",
+  "main": "hash.js",
+  "scripts": {
+    "start": "node hash.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waddal/Cryptography.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waddal/Cryptography/issues"
+  },
+  "homepage": "https://github.com/waddal/Cryptography#readme"
+}
