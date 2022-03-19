@@ -9,8 +9,8 @@ const { privateKey, publicKey } = generateKeyPairSync('rsa', {
     privateKeyEncoding: {
         type: 'pkcs8', //recommended by Node.js docs
         format: 'pem',
-        cipher: 'aes-256-cbc',
-        passphrase: 'top-secret'
+        // cipher: 'aes-256-cbc',
+        // passphrase: 'top-secret'
     },
 });
 

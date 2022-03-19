@@ -22,3 +22,8 @@ Limitation: both sender and reciever have to share a password.
 
 4. Asymmetric Encryption (Public-key cryptosystem)
 Instead of one key, it uses two keys that are linked. Private key is kept secret, Public key can be shared. 
+
+5. Signing
+What is a digital signature? Sender of a message with use a private key to sign a hash of the original message. 
+The private key guarantees authenticity and the hash guarantees the message cant be tampered with because it would produce an entirely different signature. 
+The recipient can then use the public key to validate the authenticity of the message. 
