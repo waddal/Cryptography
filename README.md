@@ -15,7 +15,10 @@ A hash that also requires a password. the only person who can create the same ha
 e.g. JSON web token (JWT). When a user logs in on a trusted server, it generates a token with its key. Then the client/server can pass it back and forth.
 The server can trust it cause only someone with the secret key could have generated that hash signature.
 
-3. Encryption
-Symmetric Encryption
+3. Symmetric Encryption
 What is encryption? we take a message (input), scramble the bytes(encryption w/key) to make it unreadable(cypher text), provide key to allow someone to read the message(decrypt w/key).
 Cypher is randomized typically after each encryption. 
+Limitation: both sender and reciever have to share a password.
+
+4. Asymmetric Encryption (Public-key cryptosystem)
+Instead of one key, it uses two keys that are linked. Private key is kept secret, Public key can be shared. 
